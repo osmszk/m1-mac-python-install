@@ -139,6 +139,9 @@
 
 - `python3 -V` -> `Python 3.8.2`
 - `which python3` -> `/usr/bin/python3`
+  - `missing xcrun at :/Library/Developer/CommandLineTools/usr/bin/xcrun`
+  - というエラーになったら、それはXcode Command Line Toolsがインストールされてないようなので
+  - コマンド `xcode-select --install` を叩いて まずCommand Line Toolsをインストールしてみてください
 
 - `conda` -> `zsh: command not found: conda`
 
