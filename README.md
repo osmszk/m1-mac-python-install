@@ -319,14 +319,16 @@
 
 - 右上のNewボタン>Python3を選び、Python3のノートブックをつくる
 - まずはそれぞれimport
-```python
+
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 ```
 
 - バージョン確認など
-```python
+
+```
 # jupyter上に画像表示したいとき
 # %matplotlib inline
 
